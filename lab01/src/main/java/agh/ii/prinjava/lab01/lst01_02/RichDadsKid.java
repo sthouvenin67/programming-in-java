@@ -26,10 +26,12 @@ public class RichDadsKid extends RichDad {
     }
 
     // extension
-    public void newSkill1() {
+    public void setUpSuccessfulCompany() {
     }
 
     public void newSkill2() {
     }
+
+
     // ...
 }

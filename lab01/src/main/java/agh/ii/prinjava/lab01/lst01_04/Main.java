@@ -9,6 +9,7 @@ package agh.ii.prinjava.lab01.lst01_04;
  *  This improves readability because it makes static methods and data easy to spot
  */
 public class Main {
+
     public static void main(String[] args) {
         HelloStatic hsInst = new HelloStatic(1.54);
 
