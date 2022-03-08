@@ -1,18 +1,27 @@
 package agh.ii.prinjava.proj1.impl;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-
 import static org.junit.jupiter.api.Assertions.*;
 
-class DLinkListTest {
-    DLinkList<Integer> dLinkList = new DLinkList<>();
 
-    @BeforeEach
-    void setUp() {
+class DLinkListTest {
+
+    @org.junit.jupiter.api.Test
+    void addFirst() {
     }
 
-    @AfterEach
-    void tearDown() {
+    @org.junit.jupiter.api.Test
+    void addLast() {
+    }
+
+    @org.junit.jupiter.api.Test
+    void removeFirst() {
+    }
+
+    @org.junit.jupiter.api.Test
+    void removeLast() {
+    }
+
+    @org.junit.jupiter.api.Test
+    void testToString() {
     }
 }
