@@ -3,7 +3,8 @@ package agh.ii.prinjava.proj1.impl;
 public class DLinkList<E> {
     // ...
 
-    Node head, tail = null;
+    Node head, tail = new Node<E>;
+    head, tail = null;
 
     public void addFirst(E x){
 
@@ -47,7 +48,7 @@ public class DLinkList<E> {
 
     }
 
-    public Object removeFirst(){
+    public E removeFirst(){
 
         if (head == null) {
             return null;
@@ -63,7 +64,7 @@ public class DLinkList<E> {
         }
     }
 
-    public Object removeLast(){
+    public E removeLast(){
 
         if (tail == null) {
             return null;
